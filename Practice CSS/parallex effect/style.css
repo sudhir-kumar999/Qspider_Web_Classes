@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background-size: auto ;
+    /* background-attachment: local; */
+
+}
+.sec-1,.sec-3,.sec-5{
+    background-image: url(./shmain.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: local;
+}
+
+.sec-2,.sec-4,.sec-6{
+    background-image: url(./sk2.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+
+}

@@ -1,0 +1,15 @@
+p{
+    /* font-variant: small-caps; */
+    font-style: inherit;
+}
+
+p{
+    text-transform: capitalize;
+    /* line-height: 500%; */
+    text-indent: 55 ;
+    /* direction: rtl; */
+    white-space: nowrap;
+}
+span{
+    text-indent: 50px;
+}

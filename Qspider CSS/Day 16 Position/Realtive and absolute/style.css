@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 1200px;
+    height: 600px;
+    background-color: aqua;
+    
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.b1{
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    
+}
+.b2{
+    background-color: blue;
+    top: 0;
+    right: 0;
+    
+}
+.b3{
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}

@@ -1,0 +1,32 @@
+/* #box h1{
+    background-color: rgb(160, 160, 246);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:  underline red 5px;
+    text-underline-position: under;
+    text-underline-offset: 50px;
+    word-spacing: 15px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    
+} */
+/* webkit show its latest property and currently on working */
+
+/* #box div{
+    padding:0 20px 0 20px ;
+    line-height: 2;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-shadow: ;
+    
+} */
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: ;
+}
+body{
+    background-color: black;
+}

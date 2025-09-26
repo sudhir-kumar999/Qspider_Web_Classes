@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    width: 1000px;
+    height: 550px;
+    background-color: red;
+   
+    border :3px solid black;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+.b1{
+    background-color: orange;
+    display: inline-block;
+}
+.b2{
+    background-color: green;
+    display: inline-block;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.b3{
+    background-color: #fff;
+    display: inline-block;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="#" autocomplete="off">
+        <div class="form-head">
+            <h2>Signin</h2>
+            <span>It only takes 3 sec.</span>
+        </div>
+
+        <div class="form-body">
+            <label for="inp1">
+                Username<sup>*</sup>
+                <input
+                type="text" 
+                id="inp1"
+                name="username"
+                placeholder="Enter fullname"
+                required
+                autofocus
+                >
+            </label>
+
+            <label for="inp2">
+                Email<sup>*</sup> 
+                <input
+                type="email" 
+                id="inp2"
+                name="emailId"
+                placeholder="xyz@gmail.com"
+                required
+                >
+                <p id="emailError" class="valid"></p>
+            </label>
+
+            <label for="inp3">
+                <div>
+                    Password<sup>*</sup> 
+                    <input
+                    type="password" 
+                    id="inp3"
+                    name="password"
+                    placeholder="at least 8 character"
+                    
+                    required
+                    >
+
+                    
+                        <i id="togglePasswordBtn" class="fa-solid fa-eye"></i>
+                        <!-- <i class="fa-solid fa-eye-slash"></i>            -->
+
+                </div>
+                <p id="passwordError" class="valid"></p>
+            </label>
+        </div>
+
+        <div class="form-foot">
+            <button type="submit">SignIn</button>
+            <button type="reset">Cancel</button>
+            <span>Already have an account?
+                <a href="login.html">Login</a>
+            </span>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

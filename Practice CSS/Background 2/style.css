@@ -1,0 +1,21 @@
+body{
+    /* background-image: linear-gradient(to right , red , blue, green,orange); */
+    background-image: url("./image.png");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* background-position:  center; */
+    background-position: center;
+    height: 100vh;
+}
+
+/* h1{
+    background-image: url("./image.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+} */

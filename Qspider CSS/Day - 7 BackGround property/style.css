@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%; 
+    /* width: 100vw;  vw take the full screen to the scrollbar also  so we take 100%
+    don't take height always take min-height where we don't sure about the height of content
+    when we sure about the height then we take height 
+    */
+    min-height: 100vh;
+
+}
+header{
+    background-color: red;
+    height: 100px;
+
+}
+
+
+main{
+    background-color: aquamarine;
+    height: calc(100vh - 100px);
+    background-image: url(./img1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: top 100px left 100px;
+
+}
+footer{
+    background-color: rgb(255, 123, 0);
+    height: 400px;
+
+}
+footer h1{
+    font-size: 84px;
+    text-align: center;
+    color: transparent;
+    background-color: rgb(5, 2, 184);
+    background-clip: text;
+    font-style: italic;
+}
+footer>h1::first-letter{
+    color: rgb(0, 0, 0);
+}
+
+.s1{
+    /* background-color: aqua; */
+    background-image: url(./img1.png);
+    color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grand{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+        }
+        #parent{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="grand">
+    <div id="parent" >
+  Parent Div
+  <button id="child">Click Me</button>
+</div>
+</div>
+
+<script>
+    document.getElementById("grand").addEventListener("click", () => {
+    console.log("grand div clicked");
+  });
+
+  
+</script>
+
+</body>
+</html>

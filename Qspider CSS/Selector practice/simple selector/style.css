@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  by tagname or element name */
+h1{
+    color: red;
+}
+p{
+    color: aquamarine;
+}
+/*  by id name */
+#id1{
+    font-style: italic;
+}
+/* by class name */
+.cl1{
+    font-size: 50px;
+}
+/* Group selector */
+h1 ,  span , h2{
+    font-weight: 900;
+    margin: 50px;
+}

@@ -1,0 +1,43 @@
+h1::first-letter{
+    color: Red;
+    font-size: 90px;
+    font-style: italic;
+}
+div::first-line{
+    color: rgb(11, 0, 95);
+    font-style: italic;
+    font-weight: bold;
+}
+
+*::selection{
+    background-color: rgb(70, 229, 113);
+}
+
+ul>li:nth-of-type(even)::marker{
+    content: "😂";
+}
+
+ul>li:nth-of-type(odd)::marker{
+    content: "😒";
+}
+
+ul>li:nth-last-of-type(2)::marker{
+    content: "🤷‍♂️";
+}
+
+ul>li:last-of-type::marker{
+    content: "😉";
+}
+
+h1::before{
+    content: "sudhir kumar ";
+}
+
+h1::after{
+    content: "🤷‍♂️";
+}
+
+input::placeholder{
+    color: aqua;
+    text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 300px;
+            background-color: aqua;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        #name{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container" id="container">
+        <div class="box" id="box">
+           
+        </div>
+    </div> -->
+    <input type="text" id="inputbox">
+
+    <div class="change" id="change">
+        <select name="" id="language">
+            <option value="c">c</option>
+            <option value="c++">c++</option>
+            <option value="java">java</option>
+        </select>
+        <p id="output"></p>
+    </div>
+
+    <div>
+        <input type="text" id="username">
+        <p id="para"></p>
+        <p id="parag"></p>
+    </div>
+
+    <div >
+        <form action="" class="form" id="myform">
+        <label for="name">name : </label>
+        <input type="text" id="names">
+        <label for="password" >password : </label>
+        <input type="password" id="password">
+        <button type="submit">submit</button>
+    </form>
+    <p id="msg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

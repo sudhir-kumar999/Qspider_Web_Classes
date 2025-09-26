@@ -1,0 +1,37 @@
+/* child selector */
+/* .div1>p{
+    color: red;
+}
+    
+.div2>p{
+    color: red;
+} */
+
+/* descendent selector */
+
+/* .div1 p{
+    color: red;
+}
+
+.div2 p{
+    color: red;
+} */
+
+/* immediate sibling selector */
+
+/* p+p{
+    color: red;
+}
+p+h1{
+    color: aqua;
+} */
+
+/* general sibling selector */
+
+/* p~p{
+    color: red;
+}
+
+p~h1{
+    color: red;
+} */

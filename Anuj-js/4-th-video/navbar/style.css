@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(3, 46, 26);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+    position: inherit;
+    padding: 5px;
+}
+.toggler{
+ position: absolute;
+ right: 20px;
+ color: white;
+}
+
+ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    display: block;
+    
+}
+
+
+.menu{
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    
+    
+}
+a:hover{
+    background-color: #777;
+}
+
+.nav-link{
+    display: none;
+}
+
+.nav-link.active{
+    display: block;
+}

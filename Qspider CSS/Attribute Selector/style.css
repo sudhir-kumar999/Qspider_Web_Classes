@@ -1,0 +1,11 @@
+div[title^="d1"]{
+    color: red;
+}
+
+div[title$="f4"]{
+    color: blue;
+}
+
+/* div[title~="tag"]{
+    color: aqua;
+} */

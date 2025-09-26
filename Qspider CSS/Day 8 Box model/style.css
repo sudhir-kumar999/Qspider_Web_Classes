@@ -1,0 +1,36 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.cb{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black;
+}
+.bb{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black; 
+    margin: 100px auto 0px; 
+    /*  to make in between the screen */
+}
+/* margin
+ margin: ____; Top Right Bottom Left
+ margin:_____ ____;Top,Bottom    Left,Right
+ margin: ____ ____ _____; Top Right,Left Bottom
+ margin:____ _____ ______ _____;Top right bottom left
+*/
+
+/* 
+1. margin-inline:_____ _____; left(margin inline start)   right(margin inline end)
+2. margin-block: __20px___  __20px____;  top(margin block start)   bottom(margin block end)
+3.margin-inline:____;
+4.margin-block:______;
+5.margin:auto; top bottom not apply only apply on left right
+*/

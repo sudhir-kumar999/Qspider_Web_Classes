@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandp{
+            width: 500px;
+            height: 500px;
+           position: relative;
+            background-color: beige;
+           
+            
+        }
+    
+        .parent{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            color: white;
+     
+        }
+
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="grandp" id="grandp">
+        <div class="parent" id="parent">
+            <div class="child" id="child">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="event.js" ></script>
+</body>
+</html>

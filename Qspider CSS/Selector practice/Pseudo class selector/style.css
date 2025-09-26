@@ -1,0 +1,57 @@
+a:link{
+    color: red;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: blue;
+}
+button{
+    margin: 5px;
+    padding: 8px;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+
+button:visited{
+    background-color: red;
+}
+
+input:focus{
+    background-color: red;
+    padding: 10px;
+}
+button:focus{
+    background-color: red;
+}
+textarea:focus{
+    background-color: red;
+}
+/* 
+p:first-child{
+    color: red;
+} */
+/* div>span:first-child{
+    color: blue;
+} */
+
+/* p:last-child{
+    color: blue;
+} */
+
+/* span:first-of-type{
+    color: orange;
+} */
+/* span:nth-of-type(2){
+    color: blue;
+}
+p:nth-of-type(2){
+    color: rgb(10, 244, 53);
+} */
+
+section>:is(p,span){
+    color: red;
+}

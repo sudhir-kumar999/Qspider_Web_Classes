@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form.submit() Validation Skip Demo</title>
+</head>
+<body>
+  <h2>form.submit() Validation Skip Example</h2>
+
+  <form id="myForm" action="" >
+    Name: <input type="text" name="name" required placeholder="Enter name"><br><br>
+    Email: <input type="email" name="email" required placeholder="Enter email"><br><br>
+    <button type="submit">Normal Submit</button>
+  </form>
+
+  <button id="autoSubmit">Submit via JS (form.submit())</button>
+
+  <script>
+    let form = document.getElementById("myForm");
+    let btn = document.getElementById("autoSubmit");
+
+    // Normal submit listener
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      console.log("Normal submit event triggered!");
+    });
+
+    // JS submit
+    btn.addEventListener("click", () => {
+      console.log("Calling form.submit() → Validation skipped");
+      form.submit(); // ✅ Validation skipped, submit event listener bhi bypass
+    });
+  </script>
+</body>
+</html>

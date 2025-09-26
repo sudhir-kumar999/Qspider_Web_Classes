@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      .main{
+          height: 100vh;
+          <!-- display: flex;
+          justify-content: center;
+          align-items: center; -->
+
+      }
+      #btn{
+          font-size: 20px;
+          padding: 10px 20px;
+      }
+      button{
+          background: transparent;
+          border: none;
+      }
+      #menu{
+          display: none;
+      }
+      #menu.active{
+          display: block;
+          background-color: red;
+          width: 50%;
+          height: 100vh;
+          display: flex;flex-direction: column;
+          align-items: center;
+          margin-top: -52px;
+          color: white;
+      }
+      #menu.active p{
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <button id="btn" onclick="switchbar()">
+        <i class="fa-solid fa-bars" id="bars"></i>
+      </button>
+      <div id="menu">
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/af4b4aea4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

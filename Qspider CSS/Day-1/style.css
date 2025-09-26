@@ -1,0 +1,185 @@
+/* Universal selector use (*) */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Tagname selector */
+/* div{
+    color: red;
+} */
+
+/*  id selector use (#) */
+/* #d1{
+    color: red;
+}
+#d2{
+    color: aquamarine;
+}
+#d3{
+    color: yellow;
+} */ */
+/* #para{
+    color: blue;
+}
+
+
+/* nav , main{
+    color: orange;
+}  */
+
+/* .n1 , main{
+    color: red;
+} */
+
+
+/* class selector use (.) */
+/* .main1{
+    color: red;
+}
+
+.main2{
+    color: deepskyblue;
+}
+
+/*  combinator selector */
+
+/* article>.p1{
+    color: red;
+} */ */ */
+
+/* article>.p2{
+    color: blue;
+}
+article>main>p{
+    color: goldenrod;
+}
+
+article>span{
+    color: rgb(224, 135, 150);
+}  */
+/* article>main> .p2 >aside>nav{
+    color: rgb(255, 0, 0);
+} */
+
+/* Descent selector using space */
+/* 
+article nav{
+    color: aqua;
+}
+
+article .p3{
+    color: blue;
+}
+
+/* immediate siblings selector  use (+) */
+/* aside> p +h2 */
+/* aside>p+h2+span{
+    color: red;
+} */ */
+/* aside>p+h2+span + div + .d2{
+    background-color: green;
+}
+
+/*General sibling selector  */
+
+/* aside>p ~div{
+    color: orange;
+}
+
+aside > p ~ .d3{
+    background-color: red;
+}
+
+/* pseudo class selector */
+
+/* main>:first-child{
+    color: red;
+}
+main>:last-child{
+    color: green;
+}
+main>:nth-child(3){
+    color: aqua;
+}
+
+main>:nth-last-child(2){
+    color: blue;
+} */ */ */
+
+/* 
+
+header>p:first-of-type{
+    background-color: aqua;
+}
+header>span:first-of-type{
+    background-color: blue;
+}
+header>div:last-of-type{
+    background-color: coral;
+}
+header>span:nth-of-type(2){
+    background-color: burlywood;
+}
+header>div:nth-last-of-type(2){
+    background-color: chartreuse;
+} */
+
+/* Not  visited */
+/* a:link{
+    color: orange;
+} */
+
+/* visited */
+/* a:visited{
+    color: blue;
+}
+
+input:focus{
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+div:has(.p2){
+    color: red;
+}
+div:has(span){
+    color: blue;
+}
+
+main>section:has(article){
+    color: red;
+} */
+
+:is(h1,h2,h3){
+    color: blue;
+}
+
+/* :where(h4,h5,h6){
+    color: aqua;
+} */
+
+/* :has is used for children */
+div:not(:has(span)){
+    color: brown;
+}
+
+div:not(:has(:is(p,span))){
+    color: aqua;
+}
+
+a:link{
+    color: red;
+}
+
+a:active{
+    color: green;
+}

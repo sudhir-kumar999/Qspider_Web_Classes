@@ -1,0 +1,12 @@
+h1::first-letter{
+    color: red;
+}
+h1:hover{
+    color: aqua;
+}
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+}

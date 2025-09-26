@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;min-height: 100vh;
+    height: fit-content;
+
+}
+
+section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+}
+
+
+.s1{
+    background-attachment: fixed;
+}
+
+.s2{
+    
+}
+
+.s3{
+
+}
+
+.s4{
+
+}
+
+.s5{
+
+}
+
+.s6{
+
+}

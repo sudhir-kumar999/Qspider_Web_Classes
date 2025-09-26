@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    .container{
+        width: 1000px;
+        height: 500px;
+        border: 2px solid black;
+        position: relative;
+
+    }
+
+    .container .box{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        /* top: 0;
+        left: 0; */
+        background-color: red;
+        animation-name: box;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 2s;
+        animation-iteration-count: 2;
+        animation-direction: normal;
+        animation-play-state: paused;
+        /* animation: box 3s ease-in-out2s 2 normal; */
+    }
+
+    @keyframes box {
+        0% ,100%{
+            top: 0;
+            left: 0;
+        }
+        25%{
+            top: 0;
+            left: 900px;
+        }
+        50%{
+            top: 400px;
+            left: 900px;
+        }
+        75%{
+            top: 400px;
+            left: 0;
+        }
+        /* 100%{
+            top: 0;
+            left: 0;
+        } */
+    }
+
+.container:hover .box{
+    animation-play-state: running;
+}
