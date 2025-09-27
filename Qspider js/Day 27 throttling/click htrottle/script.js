@@ -1,8 +1,9 @@
-
+// console.log(Date.now())
 function throttle(cbfn , delay){
     let last =0;
     return function(...args){
         let now = Date.now()
+        console.log(now-last)
         if(now-last>=delay){
             cbfn.apply(this,args)
             last = now;
